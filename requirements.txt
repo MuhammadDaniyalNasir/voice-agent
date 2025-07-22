@@ -1,0 +1,49 @@
+#####################################
+# CORE REQUIREMENTS (Required)
+#####################################
+
+# Streamlit for the web interface
+streamlit
+
+# Whisper model (lightweight + CPU-friendly)
+faster-whisper
+
+# Audio conversion tool wrapper
+ffmpeg-python
+
+# Basic audio manipulation
+pydub
+
+#####################################
+# OPTIONAL (But Recommended)
+#####################################
+
+# Regex for better prompt parsing and structured output
+regex
+
+# dotenv for environment variable management
+python-dotenv
+
+#####################################
+# OPTIONAL - FUTURE EXTENSIONS
+#####################################
+
+# Speaker diarization (if you want multi-speaker tagging)
+# pyannote.audio  # requires torch & complex setup
+
+# Audio preprocessing or enhancement
+torchaudio
+scipy
+numpy
+
+# Use this if switching to HuggingFace Transformers or LangChain later
+# transformers
+# langchain
+# sentence-transformers
+
+#####################################
+# NOTES
+#####################################
+# Ollama is NOT pip-installed.
+# Install from: https://ollama.com/download
+# Then run: `ollama pull mistral` or other model
